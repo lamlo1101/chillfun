@@ -1,0 +1,28 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+#playAgainButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#playAgainButton:hover {
+    background-color: #45a049;
+}
